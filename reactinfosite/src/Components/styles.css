@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 /*font-family: 'Inter', sans-serif;*/
 h1 {
-  font-style: Inter, sans-serif;
+  font-size: 22px;
 }
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  background-color: #282d35;
+  font-style: Inter, sans-serif;
 }
 img {
   width: 60px;
   margin-right: 10px;
 }
 nav {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   display: flex;
   background-color: #21222a;
   padding: 30px;
@@ -25,6 +27,29 @@ nav > h1 {
   font-weight: 700;
 }
 
-.container {
-  border: 1px solid black;
+main {
+  /*border: 1px solid pink;*/
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  letter-spacing: -0.05rem;
+}
+.main-title {
+  margin: 0;
+  font-size: 39px;
+}
+.main-facts {
+  font-size: 19px;
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main-facts > li {
+  line-height: 19px;
+  padding: 10px 0;
+}
+.main-facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
